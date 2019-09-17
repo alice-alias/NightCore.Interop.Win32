@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    
+    <Version>0.0.1</Version>
+    <Description>Win32 API つかうやつ ― kernel32 編</Description>
+    <PackageProjectUrl>https://github.com/alice-alias/NightCore.Interop.Win32</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/alice-alias/NightCore.Interop.Win32.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>alice_alias</Authors>
+  </PropertyGroup>
+</Project>
