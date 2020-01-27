@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>netcoreapp3.0</TargetFrameworks>
     <RootNamespace>NightCore.Interop.Win32</RootNamespace>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Description>Win32 API つかうやつ ― imm32 編</Description>
     <PackageProjectUrl>https://github.com/alice-alias/NightCore.Interop.Win32</PackageProjectUrl>
     <RepositoryUrl>https://github.com/alice-alias/NightCore.Interop.Win32.git</RepositoryUrl>
@@ -13,10 +13,6 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Authors>alice_alias</Authors>
   </PropertyGroup>
-
-  <ItemGroup Condition="'$(TargetFramework)'=='net461'">
-    <PackageReference Include="System.ValueTuple" Version="4.5.0" />
-  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\NightCore.Interop.Win32\NightCore.Interop.Win32.csproj" />

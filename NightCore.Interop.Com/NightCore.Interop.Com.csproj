@@ -1,11 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFrameworks>netcoreapp3.0</TargetFrameworks>
-    <RootNamespace>NightCore.Interop.Win32</RootNamespace>
 
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.0.2</Version>
-    <Description>Win32 API つかうやつ ― user32 編</Description>
+
+    <Version>0.0.1</Version>
+    <Description>Win32 API つかう用の COM 扱うやつ</Description>
     <PackageProjectUrl>https://github.com/alice-alias/NightCore.Interop.Win32</PackageProjectUrl>
     <RepositoryUrl>https://github.com/alice-alias/NightCore.Interop.Win32.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
@@ -14,6 +15,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NightCore.Interop.Memory\NightCore.Interop.Memory.csproj" />
     <ProjectReference Include="..\NightCore.Interop.Win32\NightCore.Interop.Win32.csproj" />
   </ItemGroup>
+
 </Project>

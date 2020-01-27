@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NightCore.Interop.User32", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NightCore.Interop.Imm32", "NightCore.Interop.Imm32\NightCore.Interop.Imm32.csproj", "{544C12BE-E12C-4B49-AA1B-003F54A4F202}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NightCore.Interop.Memory", "NightCore.Interop.Memory\NightCore.Interop.Memory.csproj", "{594331C7-3843-4816-9B58-B953593ADF5B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NightCore.Interop.Com", "NightCore.Interop.Com\NightCore.Interop.Com.csproj", "{0D465284-8A85-42CA-8258-86C29C53A0B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{544C12BE-E12C-4B49-AA1B-003F54A4F202}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{544C12BE-E12C-4B49-AA1B-003F54A4F202}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{544C12BE-E12C-4B49-AA1B-003F54A4F202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{594331C7-3843-4816-9B58-B953593ADF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{594331C7-3843-4816-9B58-B953593ADF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{594331C7-3843-4816-9B58-B953593ADF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{594331C7-3843-4816-9B58-B953593ADF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D465284-8A85-42CA-8258-86C29C53A0B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D465284-8A85-42CA-8258-86C29C53A0B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D465284-8A85-42CA-8258-86C29C53A0B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D465284-8A85-42CA-8258-86C29C53A0B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
